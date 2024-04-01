@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#welcome-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-text p {
+    color: white;
+    cursor: pointer;
+    text-shadow: 0px 0px 21px rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    transition: transform 1s ease, letter-spacing 1s ease; 
+}
+
+#welcome-text p:hover {
+    transform: scale(1.1);
+    letter-spacing: 4px; 
+}
+
+#background-video {
+    z-index: -1;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: blur(10px); 
+}
+
+#informations {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+}
+
+#informations p {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 21px rgb(255, 255, 255, 1);
+    transition: 1s all;
+}
+
+.i-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-items a {
+    text-decoration: none;
+    color: white;
+    margin-inline: 10px;
+    transition: 1s all;
+}
+
+.i-items a:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+
+#contact-me {
+    text-decoration: none;
+    color: white;
+    margin-inline: 10px;
+    transition: 1s all;
+}
+
+#contact-me:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+
+#footer a {
+    opacity: 0.5;
+    color: white;
+    padding-bottom: 5px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+#footer a:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+
+#music-toggle {
+    opacity: 1;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+#music-toggle:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
