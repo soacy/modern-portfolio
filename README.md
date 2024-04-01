@@ -1,9 +1,13 @@
-preview
+<h3 align="center">Website Preview's</h3>
 
-![image](https://github.com/matehashtag1337/modern-portfolio/assets/104621347/6801e409-eecd-4778-b096-58a4d48e3863)
+  <p align="center">
+    Another preview: http://soacy.byethost7.com/
+    <br />
+  </p>
+</div>
 
-![image](https://github.com/matehashtag1337/modern-portfolio/assets/104621347/9dcc7e0b-0ac5-4a62-8956-11a9efc19a23)
+![image](https://github.com/soacy/modern-portfolio/assets/135359189/5c7bb560-9c65-461c-857c-cbf262ee6faa)
 
-![image](https://github.com/matehashtag1337/modern-portfolio/assets/104621347/dd9ce8f7-7b75-43ca-a0ea-29334a3964b1)
+![image](https://github.com/soacy/modern-portfolio/assets/135359189/c658e1d4-91a2-4856-bb64-1ae17aeb7cad)
 
-![image](https://github.com/matehashtag1337/modern-portfolio/assets/104621347/20332223-0ee6-4e7c-9b25-4a1e7786a477)
+![image](https://github.com/soacy/modern-portfolio/assets/135359189/212573b8-f861-4261-b6f9-78823c1d9e27)
